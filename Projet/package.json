@@ -1,0 +1,29 @@
+{
+  "name": "projet_final",
+  "version": "1.0.0",
+  "description": "ELOGRI Adnan - M'BARKI Mohammed (Projet 2023-2024)",
+  "main": "js/dmn_1.js",
+  "dependencies": {
+    "@bpmn-io/dmn-migrate": "^0.4.2",
+    "dependencies": "^0.0.1",
+    "dmn-js": "^14.1.1",
+    "dmn-moddle": "^10.0.0",
+    "imicros-feel-interpreter": "^0.0.8",
+    "process": "^0.11.10",
+    "sweetalert2": "^11.4.17",
+    "util": "^0.12.5"
+  },
+  "scripts": {
+    "development": "npx tsc && npm run packaging",
+    "packaging": "webpack --config configuration-dmn.js"
+  },
+  "author": "ELOGRI Adnan - M'BARKI Mohammed",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.23.3",
+    "@jest/globals": "^29.7.0",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
